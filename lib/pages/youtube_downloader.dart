@@ -90,7 +90,7 @@ class _YoutubeDownloaderPageState extends State<YoutubeDownloaderPage> {
                   alignment: Alignment.centerLeft,
                   width: double.infinity,
                   height: 56,
-                  padding: const EdgeInsets.all(18),
+                  padding: const EdgeInsets.all(8),
                   decoration: ShapeDecoration(
                     color: Colors.white,
                     shape: RoundedRectangleBorder(
@@ -163,7 +163,7 @@ class _YoutubeDownloaderPageState extends State<YoutubeDownloaderPage> {
                     ),
                   ),
                   child: const Text(
-                    '관리자 입장',
+                    '',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Color(0xFF808080),
@@ -176,16 +176,6 @@ class _YoutubeDownloaderPageState extends State<YoutubeDownloaderPage> {
                 ),
                 const SizedBox(
                   height: 20,
-                ),
-                const Text(
-                  'ⓒ 52g. ALL RIGHTS RESERVED.',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Color(0xFF808080),
-                    fontSize: 12,
-                    fontFamily: 'Pretendard',
-                    fontWeight: FontWeight.w400,
-                  ),
                 ),
                 const SizedBox(
                   height: 40,
