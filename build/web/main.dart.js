@@ -70902,7 +70902,7 @@ $0(){var s=0,r=A.W(t.H),q=this,p,o
 var $async$$0=A.X(function(a,b){if(a===1)return A.T(b,r)
 while(true)switch(s){case 0:p=q.a.d.a.a
 o=document.createElement("a")
-o.href="http://127.0.0.1:8080/api/v1/download/"+p
+o.href="http://downloader.iptime.org/api/v1/download/"+p
 o.setAttribute("download",p+".mp4")
 o.click()
 return A.U(null,r)}})

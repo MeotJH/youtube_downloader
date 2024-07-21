@@ -17,7 +17,7 @@ class _YoutubeDownloaderPageState extends State<YoutubeDownloaderPage> {
   final Dio _dio = Dio();
 
   void downloadFile(String id) {
-    final url = 'http://127.0.0.1:8080/api/v1/download/$id';
+    final url = 'http://downloader.iptime.org/api/v1/download/$id';
     final anchor = html.AnchorElement(href: url)
       ..setAttribute('download', '$id.mp4')
       ..click();
